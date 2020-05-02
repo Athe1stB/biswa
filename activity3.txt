@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/aviral_logo"
+    android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/dash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/dash"/>
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_below="@id/dash"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000">
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:textColor="@color/cardview_light_background"
+                android:text="@string/courses"
+                android:layout_weight="1"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c1"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_light_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c2"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_light_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c3"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_light_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cg"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_light_background"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:paddingTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:text="@string/LAL"
+                android:layout_weight="1"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:text="@string/FEE"
+                android:layout_weight="1"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:text="@string/ITP"
+                android:layout_weight="1"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:text="@string/PHY"
+                android:layout_weight="1"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:text="@string/PFC"
+                android:layout_weight="1"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:text="@string/POM"
+                android:layout_weight="1"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Na"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/table"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:background="#F0AB17"
+        android:textColor="#000"
+        android:text="@string/NEXT"
+        android:onClick="change3"/>
+</RelativeLayout>

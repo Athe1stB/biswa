@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C3A42">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aviral_logo"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/credits"
+        android:textColor="@color/cardview_light_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/rn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rn"
+        android:textColor="@color/cardview_light_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tex"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UN"
+        android:textColor="@color/cardview_light_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/rn"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+</RelativeLayout>
